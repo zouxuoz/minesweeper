@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should reveal bombs. 1`] = `
+Array [
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 3,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 9,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 2,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 9,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 9,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 9,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 3,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 2,
+    },
+  ],
+]
+`;

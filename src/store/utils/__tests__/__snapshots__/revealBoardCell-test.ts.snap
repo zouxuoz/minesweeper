@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should reveal all boms if cell contain bomb. 1`] = `
+Array [
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 9,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": true,
+      "revealed": false,
+      "value": 0,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 9,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 9,
+    },
+  ],
+]
+`;
+
+exports[`Should reveal area by number cell. 1`] = `
+Array [
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 9,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": true,
+      "revealed": false,
+      "value": 0,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 9,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 9,
+    },
+  ],
+]
+`;
+
+exports[`Should reveal area by zero cell. 1`] = `
+Array [
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 9,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 0,
+    },
+    Object {
+      "flagged": true,
+      "revealed": false,
+      "value": 0,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 9,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+  ],
+  Array [
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 0,
+    },
+    Object {
+      "flagged": false,
+      "revealed": true,
+      "value": 1,
+    },
+    Object {
+      "flagged": false,
+      "revealed": false,
+      "value": 9,
+    },
+  ],
+]
+`;
