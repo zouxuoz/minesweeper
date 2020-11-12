@@ -24,7 +24,7 @@ export function* revealCellSaga(action: RevealCellAction) {
       board = generateBoard(
         config,
         (plantColumnIndex, plantRowIndex) =>
-          plantColumnIndex !== columnIndex && plantRowIndex !== rowIndex,
+          plantColumnIndex !== columnIndex || plantRowIndex !== rowIndex,
       );
     }
 
